@@ -41,7 +41,7 @@ export function ProductSales() {
               <img className="object-cover" src={item.image}></img>
             </div>
             <div className="flex flex-col justify-between gap-y-2 md:gap-y-0">
-              <span className="p-1 bg-cyan-100 rounded-lg font-light">OFFER | <span className='font-bold'>20% OFF</span></span>
+              <span className="p-1 bg-cyan-100 rounded-lg font-light text-center">OFFER | <span className='font-bold'>20% OFF</span></span>
               <p className="text-left">
                 <span className=" text-slate-700 font-black text-l´">{item.title} | {item.application > 1 ? "2 Application":  "1 Application"}
                 </span>

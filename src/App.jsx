@@ -3,7 +3,7 @@ import { Product } from './components/Product.jsx'
 import { ProductSales } from './components/ProductSales.jsx'
 function App() {
   return (
-      <section className="flex flex-col items-center">
+      <section className="flex justify-center gap-x-12 items-center">
         <Product/>
         <section>
           <h1 className="p-4 uppercase font-bold text-left text-lg">Choose your treatment:</h1>
